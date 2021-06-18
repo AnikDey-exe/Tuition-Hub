@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Tuition Hub",
+    "slug": "Tuition-Hub-2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/applogo2.png",
+    "splash": {
+      "image": "./assets/AppLogoInfo.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.user.TuitionHub"
+    },
+    "android": {
+      "permissions": [],
+      "package": "com.user.TuitionHub",
+      "versionCode": 6,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/applogo2.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
